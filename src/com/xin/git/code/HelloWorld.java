@@ -1,6 +1,7 @@
 /**
  * HelloWorld.java
  * created by XinGin
+ * comment:none
  */
 
 package com.xin.git.code;
