@@ -1,9 +1,17 @@
 package com.xin.git.code;
 
 public class HelloWorld {
-	public static void main(String args[]){
+	public static void main(String[] args){
 		
-		System.out.println("HelloWorld");
+		String[] HW = new String[2];
 		
+		HW[0] = "Hello World!"; 
+		HW[1] = "by XinGin";	
+		
+		for(String h : HW)
+		{
+			System.out.println(h);
+		}
+				
 	}
 }
