@@ -6,8 +6,10 @@
 
 package com.xin.git.code;
 
-public class HelloWorld {
-	public static void main(String[] args){
+public class HelloWorld 
+{
+	public static void main(String[] args)
+	{
 		
 		String[] HW = new String[2];
 		
