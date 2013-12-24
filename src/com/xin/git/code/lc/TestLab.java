@@ -16,7 +16,6 @@ public class TestLab {
 		int[] numbers = new int[3];
 		for(int i = 0; i < 3; i++)
 			numbers[i] = 3-i;
-		
 		int[] res = new int[2];
 		res = twoSum.twoSum(numbers, 4);
 		System.out.println("Index1:"+res[0]+","+"Index2:"+res[1]);
