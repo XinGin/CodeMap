@@ -16,5 +16,5 @@ class AbsDistinct {
         
 		return davHash.size();
               
-    }
+	}
 }
