@@ -20,7 +20,11 @@ public class TestLab {
 		res = twoSum.twoSum(numbers, 4);
 		System.out.println("Index1:"+res[0]+","+"Index2:"+res[1]);
 		//END TwoSum
-				
+		
+		SingleNumber singleNumber = new SingleNumber();
+		int[] numbers2 = {1,1,2,3,4,5,4,3,2};
+		int res2 = singleNumber.singleNumber(numbers2);
+		System.out.println(res2);
 	}
 
 }
