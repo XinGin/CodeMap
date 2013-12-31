@@ -10,7 +10,7 @@ class AbsDistinct {
         
 		Map<Long, Integer> davHash = new HashMap<Long, Integer>();
         
-		for(int i=0; i < A.length; i++)
+		for(int i = 0, len = A.length; i < len; i++)
 			if(!davHash.containsKey((long)Math.abs(A[i])))
 				davHash.put((long)Math.abs(A[i]), null);
         
