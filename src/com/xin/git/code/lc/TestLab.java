@@ -26,7 +26,7 @@ public class TestLab {
 		int res2 = singleNumber.singleNumber(numbers2);
 		System.out.println(res2);
 		
-		MultiplyString mS = new MultiplyString();
+		MultiplyStrings mS = new MultiplyStrings();
 		String num1 = "111111";
 		String num2 = "111111";
 		System.out.println(mS.multiply(num1, num2));

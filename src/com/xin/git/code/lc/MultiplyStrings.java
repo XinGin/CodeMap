@@ -1,6 +1,6 @@
 package com.xin.git.code.lc;
 
-public class MultiplyString {
+public class MultiplyStrings {
 	
 	//return int number from assigned position of a string
 	private int getInt(String s1, int idx1){
