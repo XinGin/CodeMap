@@ -25,6 +25,11 @@ public class TestLab {
 		int[] numbers2 = {1,1,2,3,4,5,4,3,2};
 		int res2 = singleNumber.singleNumber(numbers2);
 		System.out.println(res2);
+		
+		MultiplyString mS = new MultiplyString();
+		String num1 = "111111";
+		String num2 = "111111";
+		System.out.println(mS.multiply(num1, num2));
 	}
 
 }
