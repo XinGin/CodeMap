@@ -9,7 +9,7 @@ public class ReverseInteger {
       x *= -1;
     }
     long res = this.reverse((long)x);
-    if(res > Integer.MAX_VALUE || res < Integer.MIN_VALUE)
+    if((sign * res) > Integer.MAX_VALUE || (sign * res) < Integer.MIN_VALUE)
       throw new RuntimeException("Reversed Integer is out of bounds!");
     return (int)(sign * res);
   }
