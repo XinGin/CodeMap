@@ -32,7 +32,6 @@ public class TestLab {
 		//4.PalindromeNumber
 		PalindromeNumber pN = new PalindromeNumber();
 		System.out.println(pN.isPalindrome(1011));
-
 	}
 
 }
