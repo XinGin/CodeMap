@@ -5,4 +5,5 @@ package com.xin.git.code.lc;
  */
 public class IDEA {
 
+
 }
