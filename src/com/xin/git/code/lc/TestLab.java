@@ -32,9 +32,6 @@ public class TestLab {
 		//4.PalindromeNumber
 		PalindromeNumber pN = new PalindromeNumber();
 		System.out.println(pN.isPalindrome(1011));
-		//5.ReverseInteger
-		ReverseInteger rI = new ReverseInteger();
-		System.out.println(rI.reverse(-Integer.MAX_VALUE/100));
 	}
 
 }
