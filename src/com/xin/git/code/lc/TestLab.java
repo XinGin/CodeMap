@@ -11,7 +11,7 @@ public class TestLab {
 
 	public static void main(String[] args) {
 
-		//1.Test for TwoSum
+/*		//1.Test for TwoSum
 		TwoSum twoSum = new TwoSum();
 		int[] numbers = new int[3];
 		for(int i = 0; i < 3; i++)
@@ -31,7 +31,10 @@ public class TestLab {
 		System.out.println(mS.multiply(num1, num2));
 		//4.PalindromeNumber
 		PalindromeNumber pN = new PalindromeNumber();
-		System.out.println(pN.isPalindrome(1011));
+		System.out.println(pN.isPalindrome(1011));*/
+		//
+		_3Sum s3 = new _3Sum();
+		s3.threeSum(new int[]{-2,0,1,1,2});
 	}
 
 }
